@@ -2,9 +2,9 @@ name: main
 
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - "*"
+  # push:
+    # tags:
+      # - "*"
 
 jobs:
   create_release:
